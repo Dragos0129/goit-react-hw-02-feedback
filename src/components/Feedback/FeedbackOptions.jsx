@@ -14,7 +14,7 @@ class FeedbackOptions extends Component {
   render() {
     return (
       <div className={style.feedback}>
-        <h1 className={style.feedback_title}>Please leave feedback</h1>
+        <h1 className={style.feedback_title}>Please leave feedback!</h1>
         <div className={style.feedback_buttons}>
           {this.props.options.map(btn => (
             <button
